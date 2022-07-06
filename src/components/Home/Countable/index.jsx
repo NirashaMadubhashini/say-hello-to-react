@@ -1,13 +1,12 @@
 import { Typography } from "@mui/material";
 import React, { Component } from "react";
-import Button from '@mui/material/Button';
 import GDSEButton from "../../common/Button";
 
 class Countable extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            count: 0,
+            count: 0
         }
     }
 
@@ -105,4 +104,5 @@ class Countable extends Component {
         )
     }
 }
+
 export default Countable
